@@ -1,4 +1,5 @@
 import Picture from "../../assets/picture.png"
+import {Button} from "../../components/Button"
 import * as style from "../Home/styles"
 
 export function Home() {
@@ -11,7 +12,7 @@ export function Home() {
         <br/>com esse aplicativo que não fara nenhuma 
         <br/>diferença na sua vida
         </p>
-        <button>Baixar agora</button>
+        <Button text="Baixar agora"></Button>
       </style.Article>
     </style.Main>
   )

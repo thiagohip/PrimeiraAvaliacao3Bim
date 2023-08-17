@@ -20,6 +20,6 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const colors = {
-    white: "#D9D9D9",
+    white: "#FFFFFF",
     black: "#111111"
 }

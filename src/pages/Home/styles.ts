@@ -26,7 +26,7 @@ export const Article = styled.article`
         text-align: center;
     }
     h3{
-        font-size: 2.188rem;
+        font-size: 2.1rem;
     }
     right: 185px;
     gap: 25px;

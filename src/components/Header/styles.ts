@@ -9,6 +9,10 @@ export const Header = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    a{
+        color: ${colors.white};
+        text-decoration: none;
+    }
 `
 
 export const Logo = styled.div`

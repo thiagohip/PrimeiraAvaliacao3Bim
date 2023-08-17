@@ -10,10 +10,10 @@ export function Header() {
             </style.Logo> 
             <style.NavBar>
                 <ul>
-                    <li>Início</li>
-                    <li>Sobre-nós</li>
-                    <li>Contato</li>
-                    <li>Download</li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre-nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Download</a></li>
                 </ul>
             </style.NavBar> 
         </style.Header>
