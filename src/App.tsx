@@ -1,16 +1,15 @@
 import { GlobalStyle } from "./styles/GlobalStyle";
-import { HomePage} from "./pages";
-import { ComponentHeader, ComponentFooter } from "./components";
+import {RouteSoftware} from "./routes";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
 
   return (
     <>
-      <GlobalStyle/>
-      <ComponentHeader/>
-      <HomePage/>
-      <ComponentFooter/>
-      
+      <BrowserRouter>
+        <GlobalStyle/>
+        <RouteSoftware/>
+      </BrowserRouter>
     </>
   )
 }

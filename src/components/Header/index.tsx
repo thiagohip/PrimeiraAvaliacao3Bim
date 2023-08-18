@@ -1,5 +1,6 @@
 import * as style from "./styles"
 import Logo from "../../assets/logo.svg"
+import {NavBar} from "../../components"
 
 export function Header() {
     return (
@@ -8,14 +9,7 @@ export function Header() {
                 <img src={Logo} alt="Logo do Nation" />
                 <h1>Nation</h1>  
             </style.Logo> 
-            <style.NavBar>
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre-nós</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Download</a></li>
-                </ul>
-            </style.NavBar> 
+            <NavBar></NavBar>
         </style.Header>
     )
 }
