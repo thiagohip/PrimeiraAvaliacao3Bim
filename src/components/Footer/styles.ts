@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import {colors} from "../../styles/GlobalStyle"
 
 export const Footer = styled.footer`
     width: 100vw;
@@ -6,6 +7,6 @@ export const Footer = styled.footer`
     display: flex;
     align-items: center;
     padding: 15px;
-    position: absolute;
-    bottom: 0;
+    border-top: solid ${colors.white} 0.8px;
+    background-color: transparent;
 `

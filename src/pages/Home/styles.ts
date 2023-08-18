@@ -3,19 +3,24 @@ import {colors} from "../../styles/GlobalStyle"
 
 export const Main = styled.main`
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: calc(100vh - 10rem);
+    gap: 10rem;
     img{
-        position: absolute;
-        height: 33.438rem;
-        top: calc(242px - 5rem);
-        left: 460px;
+        height: 37rem;
+        padding-bottom: 8rem;
     }
+
+    @media (max-width: 780px){
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;    
+    }
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 `
 
 export const Article = styled.article`
-    position: absolute;
     display: flex;
     color: ${colors.white};
     flex-direction: column;
@@ -28,6 +33,6 @@ export const Article = styled.article`
     h3{
         font-size: 2.1rem;
     }
-    right: 185px;
-    gap: 25px;
+    gap: 5rem;
 `
+
