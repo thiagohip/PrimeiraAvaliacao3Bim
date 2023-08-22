@@ -1,5 +1,5 @@
 import {Routes, Route} from "react-router-dom"
-import {PageLayout, HomePage, DownloadPage} from "../pages"
+import {HomePage, DownloadPage, PageLayout} from "../pages"
 
 export function RouteSoftware(){
     return(

@@ -1,15 +1,15 @@
 import { GlobalStyle } from "./styles/GlobalStyle";
-import {RouteSoftware} from "./routes";
+import { RouteSoftware } from "./routes";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <GlobalStyle/>
-        <RouteSoftware/>
-      </BrowserRouter>
+        <BrowserRouter>
+          <GlobalStyle/>
+          <RouteSoftware/>
+        </BrowserRouter>
     </>
   )
 }
