@@ -1,15 +1,15 @@
 import { Outlet } from "react-router-dom"
-import { ComponentHeader, ComponentFooter } from "../../components"
+import { ComponentHeader, ComponentSidebar } from "../../components"
 import * as style from "./styles"
 
 export function Layout() {
   return (
-    <>
-      <ComponentHeader />
-      <style.Layout>
+    <style.Layout>
+      <style.Main>
+        <ComponentHeader />
         <Outlet />
-      </style.Layout>
-      <ComponentFooter />
-    </>
+      </style.Main>
+      <ComponentSidebar/>
+    </style.Layout>
   )
 }

@@ -1,5 +1,9 @@
 import styled from "styled-components"
 
 export const Layout = styled.main`
-    min-height: calc(100vh - 10rem);
+    display: flex;
+`
+
+export const Main = styled.main`
+    width: 100%;
 `

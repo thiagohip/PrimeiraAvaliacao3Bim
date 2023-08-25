@@ -9,15 +9,15 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
 }
 
- body{
-    background: linear-gradient(216deg, rgba(204,88,88,1) 0%, rgba(112,45,45,1) 100%);
- }
+
 `
 
 export const colors = {
-    white: "#FFFFFF",
-    black: "#111111"
+    First: "#92B395",
+    Second: "#9DDBCA",
+    Thirst: "#565164",
+    Fourth: "#D8F5D1",
+    White: "#FFFFFF"
 }
